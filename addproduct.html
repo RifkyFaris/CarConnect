@@ -38,7 +38,7 @@
       <br />
       <div class="navmenu" id="navmenu">
         <ul>
-          <a class="navmenus" onclick="menuClose()" href="#"
+          <a class="navmenus" onclick="menuClose()" href="index.html"
             ><li>Home</li></a
           >
           <a class="navmenus" onclick="menuClose()" href="#services"
@@ -54,113 +54,46 @@
 <!--nav end-->
 
 <!--hero start-->
-      <div class="hero" id="hero">
-        <div class="text">
-          <p class="we">
-            Drive with <br /> <span class="ai">Confidence, </span> 
-            Shine with <br /> <span class="ai">Excellence.</span> 
-          </p>
-          <br />
-          <p class="collaborate">
-            Unmatched care for peak performance and lasting shine.
-          </p>
-          <br />
+      
+<div class="register">
+    <p class="login-title">New Product</p>
+    
+    <div class="form-div">
 
-          <a href="register.html"><p class="schedule">Register Now</p></a>
-        </div>
-        <img
-          class="video"
-          src="car.avif"
-          
-        >
-      </div>
-      <!--hero end-->
-      <!--hero start-->
-      <br>
-      <div class="hero" id="hero">
-        <div class="car_logo">
-          <img class="carLogo" src="tesla.png" alt="">
-          <img class="audilogo" src="audi.png" alt="">
-          <img class="carLogo" src="toyota.png" alt="">
-          <img class="carLogo" src="suzuki.png" alt="">
-          <img class="isuzulogo" src="isuzu.png" alt="">
-          <img class="carLogo" src="benz.png" alt="">
-          <img class="carLogo" src="mahindra.png" alt="">
-          <img class="kialogo" src="kia.png" alt="">
-        </div>
+      <form>
+          <label class="label" for="name">Name</label><br>
+        <input type="text" id='name' required placeholder="Name"><br><br>
         
-      </div>
-      <!--hero end-->
-      <br>
-      <!--services start-->
-      <div class="hero1" >
-        <h1 class="what" id="services">Our Services</h1>
-        <div class="row">
-          <div class="col1_service"> 
-            <a class="service_list" href="a.hml">
-            <span class="no">01</span><br>
-            Spare Parts<br>
-            <p class="quote">
-              
-              Your Digital Bridge to Quality Spare Parts.
-            </p></a>
-          </div>
-          <div class="col1_service">
-            <a class="service_list" href="a.hml">
-            <span class="no">02</span> <br>
-            Car Wash <br>
-            <p class="quote">
-              
-              Where Every Wash Feels Like New.
-              </p></a>
-            
-          </div>
-          <div class="col1_service">
-            <a class="service_list" href="a.hml">
-            <span class="no">03</span> <br>
-            Car Repair <br>
-            <p class="quote">
-              
-              Precision Repairs for Peak Performance.
-          
-              </p></a>
-            </div>
-        </div>
-        <div class="row1">
-          <div class="col1_service"> 
-            <a class="service_list" href="a.hml">
-            <span class="no">04</span><br>
-            Towing <br>
-            <p class="quote">
-              
-              Your Roadside Rescue Team.
-            </p></a>
-           
-          </div>
-          <div class="col1_service">
-            <a class="service_list" href="a.hml">
-            <span class="no">05</span> <br>
-           Engine Repair <br>
-           <p class="quote">
-              
-            Engine Trouble? We’ve Got the Fix.
-          </p></a>
-           
-          </div>
-          <div class="col1_service">
-            <a class="service_list" href="a.hml">
-            <span class="no">06</span> <br>
-            Electrical Repair <br>
-            <p class="quote">
-              
-              Keeping Currents Flowing, Miles Going.
-            </p></a>
-            
-          </div>
-        </div>
+        <label class="label" for="price">Price</label><br>
+        <input type="number" id='price' required placeholder="Price"><br><br>
+        <label class="label"  for="stock">Stock</label><br>
+        <input type="number" id="stock" required placeholder="Stock"><br><br>
+        <label class="label"  for="category">Select category</label><br>
         
-      </div>
-      <!--services end-->
+        <select class="category-select" name="select" id="category">
+          <option value="c">c</option>
+          <option value="d">d</option>
+        </select>
+
+        
+        <br><br>
+
+        <label class="label"  for="image">Image</label><br>
+        <input type="file" id="image" required placeholder="Upload Image">
+        
+        <br><br>
+        <input type="submit" class="submit" value="Create Product">
+        
+    
+      </form>
+      
+    </div>
+  </div>
+
+      
+      <!--hero end-->
+      
+      
       <!--footer container start-->
       <div class="footerContainer">
         <div class="footer">
