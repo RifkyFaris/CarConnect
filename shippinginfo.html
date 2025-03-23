@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Car Connect</title>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!--nav start-->
+      <div class="nav" >
+            <img src="carconnect.png" alt="logo" class="logo" />
+        
+        
+        <ion-icon
+          class="menu"
+          id="menu"
+          onclick="menuOpen()"
+          name="menu"
+        ></ion-icon>
+        <ion-icon
+          class="menuClose"
+          id="menuClose"
+          onClick="menuClose()"
+          name="close"
+        ></ion-icon>
+      </div>
+      <br />
+      <div class="navmenu" id="navmenu">
+        <ul>
+          <a class="navmenus" onclick="menuClose()" href="index.html"
+            ><li>Home</li></a
+          >
+          <a class="navmenus" onclick="menuClose()" href="#services"
+            ><li>Our Services</li></a
+          >
+          
+          <a class="navmenus" onclick="menuClose()" href="contactus.html"
+            ><li>Contact Us</li></a
+          >
+        </ul>
+      </div>
+      <br id="menubr" />
+<!--nav end-->
+      <!--shipping container start-->
+
+        <div class="register">
+            <p class="login-title">Shipping Info</p>
+            
+            <div class="form-div">
+  
+              <form>
+                  <label class="label" for="address">Address</label><br>
+                <input type="text" id='address' required placeholder="Enter Address"><br><br>
+                
+                <label class="label" for="city">City</label><br>
+                <input type="tel" id='city' required placeholder="Enter City"><br><br>
+                <label class="label"  for="phone">Phone Number</label><br>
+                <input type="tel" id="phone" required placeholder="Enter Phone Number">
+                
+                <br><br>
+                <input type="submit" class="submit" value="Continue">
+                
+            
+              </form>
+              
+            </div>
+          </div>
+        
+        <!--shipping container end-->
+      
+      <!--footer container start-->
+      <div class="footerContainer">
+        <div class="footer">
+          <div class="col1">
+            <img src="carconnect.png" class="footerLogo">
+            <p class="meezan">Car Connect offers top-notch vehicle service solutions, ensuring your car stays in peak condition. From routine maintenance to advanced diagnostics, Car Connect delivers reliable, efficient, and affordable services. Trust Car Connect for expert care, quality parts, and exceptional customer support every time.</p>
+               <div class="socials">
+                <ion-icon class="footerSocial" name="logo-facebook"></ion-icon>
+               <ion-icon class="footerSocial" name="logo-whatsapp"></ion-icon>
+               <ion-icon class="footerSocial" name="mail"></ion-icon>
+               <ion-icon class="footerSocial" name="call"></ion-icon>
+               <ion-icon class="footerSocial" name="location"></ion-icon>
+               </div>
+               
+          </div>
+          <div class="col2">
+            <div class="col21">
+              <a class="footer_text" href="index.html"><p class="footerLink">Home</p></a>
+              <a class="footer_text" href="#"><p class="footerLink">Shop</p></a>
+              <a class="footer_text" href="#"><p class="footerLink">Products</p></a>
+              <a class="footer_text" href="#"><p class="footerLink">Delivery Areas</p></a>
+              <a class="footer_text" href="#"><p class="footerLink">FAQ</p></a>
+            </div>
+            <div class="col22">
+              <a class="footer_text" href="#"><p class="footerLink">Help</p></a>
+              <a class="footer_text" href="#"><p class="footerLink">Support</p></a>
+              <a class="footer_text" href="#"><p class="footerLink">Privacy Policy</p></a>
+              <a class="footer_text" href="#"><p class="footerLink">Refud Policy</p></a>
+              <a class="footer_text" href="#"><p class="footerLink">Terms & Conditions</p></a>
+            </div>
+          </div>
+          <div class="col3">
+            <h3 class="accepted">ACCEPTED PAYMENT METHODS</h3>
+            <div class="paymentImages">
+              <img src="american.png" class="paymentlogo">
+              
+              <img src="visa.png" class="paymentlogo">
+              
+              <img src="mastercard.png" class="paymentlogo">
+              
+              <img src="cod.png" class="paymentlogo">
+              
+              <img src="transfer.png" class="paymentlogo">
+            </div>
+            <p class="meezan">We ensure secure online payments through trusted gateways. 
+              All transactions are encrypted, ensuring your payment details are safe and secure.</p>
+          </div>
+        </div>
+        
+        <p class="copyright">© Copyright 2024, All Rights Reserved by CarConnect.lk</p>
+      </div>
+        
+      </div>
+
+      
+      <!--footer container end-->
+
+      
+  </div>
+
+  </body>
+</html>
